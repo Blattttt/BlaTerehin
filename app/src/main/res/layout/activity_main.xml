@@ -5,29 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/backgroundColor">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/textTag"
         android:textSize="@dimen/textTagSize"
-        android:textColor="#1A858E"
-        android:padding="@dimen/padding"/>
+        android:textColor="@color/white"
+        android:padding="@dimen/padding"
+        android:background="@color/titleColor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/padding"/>
 
     <ImageView
-        android:layout_width="298dp"
-        android:layout_height="51dp"
+        android:layout_width="290dp"
+        android:layout_height="95dp"
         android:layout_alignParentEnd="true"
         android:layout_gravity="center"
         android:background="@drawable/almaz"
         android:orientation="horizontal" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/padding"/>
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:divider="@color/notColor" />
+
 
 
 </LinearLayout>
