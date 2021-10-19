@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    String[] countries = {"Кирка", "Лопата", "Мотыга", "Топор", "Шлем", "Нагрудник", "Поножи", "Ботинки", "Блок"};
+    String[] countries = {"Кирка", "Лопата", "Мотыга", "Топор", "Шлем", "Кираса", "Поножи", "Ботинки", "Блок"};
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -9,6 +9,7 @@
     android:background="@drawable/bg1">
 
     <TextView
+        android:id="@+id/textSecond"
         android:layout_width="match_parent"
         android:gravity="center_horizontal"
         android:layout_height="wrap_content"
@@ -24,6 +25,7 @@
         android:layout_height="@dimen/padding2"/>
 
     <ImageView
+        android:id="@+id/imageSecond"
         android:layout_width="@dimen/imgSize"
         android:layout_height="@dimen/imgSize"
         android:layout_gravity="center"
