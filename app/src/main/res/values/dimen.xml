@@ -3,4 +3,7 @@
     <dimen name="textTagSize">20sp</dimen>
     <dimen name="padding">10dp</dimen>
     <dimen name="widthEdittext">80dp</dimen>
+    <dimen name="padding2">150dp</dimen>
+    <dimen name="imgSize">250dp</dimen>
+
 </resources>
