@@ -10,4 +10,5 @@
     <color name="titleColor">#4e7932</color>
     <color name="backgroundColor">#7d583e</color>
     <color name="notColor">#00555555</color>
+    <color name="hotBar">#904E7932</color>
 </resources>
