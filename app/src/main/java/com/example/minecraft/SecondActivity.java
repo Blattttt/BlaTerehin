@@ -1,5 +1,4 @@
 package com.example.minecraft;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.drawable.Drawable;
@@ -9,7 +8,6 @@ import android.widget.TextView;
 
 import java.io.IOException;
 import java.io.InputStream;
-
 public class SecondActivity extends AppCompatActivity {
 
     @Override
@@ -28,6 +26,4 @@ public class SecondActivity extends AppCompatActivity {
         }
         catch (IOException e){
             e.printStackTrace();
-        }
-    }
-}
+        }}}
